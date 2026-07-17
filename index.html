@@ -77,7 +77,7 @@
 							<article class="rounded-xl bg-white p-5 shadow-sm ring-1 ring-[#E2E8F0] md:col-span-2 xl:col-span-1">
 								<p class="text-xs font-semibold uppercase tracking-[0.12em] text-[#475569]">Tasa de Fiabilidad</p>
 								<div class="mt-4 flex items-center gap-4">
-									<svg viewBox="0 0 120 120" class="h-[10rem] w-[10rem]" role="img" aria-label="Tasa de fiabilidad 80 por ciento">
+									<svg viewBox="0 0 120 120" class="h-[6rem] w-[13rem]" role="img" aria-label="Tasa de fiabilidad 80 por ciento">
 										<circle cx="60" cy="60" r="46" fill="none" stroke="#E2E8F0" stroke-width="12"></circle>
 										<circle cx="60" cy="60" r="46" fill="none" stroke="#0F766E" stroke-width="12" stroke-linecap="round" stroke-dasharray="289" stroke-dashoffset="58" transform="rotate(-90 60 60)"></circle>
 										<text x="50%" y="54%" text-anchor="middle" class="fill-[#0F172A] text-[20px] font-extrabold">80%</text>
@@ -179,38 +179,40 @@
 
 					<section id="inventory-section" class="space-y-4">
 						<div class="flex items-center justify-between">
-							<h3 class="text-xl font-bold text-[#0F172A]">3) Catalogo de Artilugios Defectuosos</h3>
+							<h3 class="text-xl font-bold text-[#0F172A]">3) Artilugios más Defectuosos</h3>
 							<p class="text-xs text-slate-500">Pasa el cursor por cada tarjeta para ver como fallo el invento.</p>
 						</div>
-						<div class="grid gap-4 md:grid-cols-2 xl:grid-cols-3">
-							<article class="rounded-xl bg-white p-5 shadow-sm ring-1 ring-[#E2E8F0]">
-								<p class="text-xs font-semibold uppercase tracking-[0.12em] text-slate-500">ACME-001</p>
-								<h4 class="mt-1 text-lg font-bold text-[#0F172A]">Dehydrated Boulders</h4>
-								<p class="mt-2 text-sm text-slate-600"><strong>Costo:</strong> $5,400</p>
-								<p class="mt-1 text-sm text-slate-600"><strong>Fallo:</strong> 100%</p>
-								<p class="mt-2 text-xs text-slate-500">Fallo principal: Rehydrated mid-air, fell vertically on user.</p>
-							</article>
-							<article class="rounded-xl bg-white p-5 shadow-sm ring-1 ring-[#E2E8F0]">
-								<p class="text-xs font-semibold uppercase tracking-[0.12em] text-slate-500">ACME-002</p>
-								<h4 class="mt-1 text-lg font-bold text-[#0F172A]">Rocket-Powered Roller Skates</h4>
-								<p class="mt-2 text-sm text-slate-600"><strong>Costo:</strong> $9,999.96</p>
-								<p class="mt-1 text-sm text-slate-600"><strong>Fallo:</strong> 100%</p>
-								<p class="mt-2 text-xs text-slate-500">Fallo principal: Failed to steer, propelled user off cliff face.</p>
-							</article>
-							<article class="rounded-xl bg-white p-5 shadow-sm ring-1 ring-[#E2E8F0]">
-								<p class="text-xs font-semibold uppercase tracking-[0.12em] text-slate-500">ACME-003</p>
-								<h4 class="mt-1 text-lg font-bold text-[#0F172A]">Giant Rubber Band</h4>
-								<p class="mt-2 text-sm text-slate-600"><strong>Costo:</strong> $1,800</p>
-								<p class="mt-1 text-sm text-slate-600"><strong>Fallo:</strong> 93%</p>
-								<p class="mt-2 text-xs text-slate-500">Fallo principal: Snapped backward, slingshotting user into canyon wall.</p>
-							</article>
-						</div>
+						<article class="rounded-xl bg-white p-5 shadow-sm ring-1 ring-[#E2E8F0]">
+							<div class="grid gap-5 md:grid-cols-3 md:gap-0">
+								<div class="md:pr-5">
+									<p class="text-xs font-semibold uppercase tracking-[0.12em] text-slate-500">ACME-001</p>
+									<h4 class="mt-1 text-lg font-bold text-[#0F172A]">Dehydrated Boulders</h4>
+									<p class="mt-2 text-sm text-slate-600"><strong>Costo:</strong> $5,400</p>
+									<p class="mt-1 text-sm text-slate-600"><strong>Fallo:</strong> 100%</p>
+									<p class="mt-2 text-xs text-slate-500">Fallo principal: Rehydrated mid-air, fell vertically on user.</p>
+								</div>
+								<div class="md:border-l md:border-slate-200 md:px-5">
+									<p class="text-xs font-semibold uppercase tracking-[0.12em] text-slate-500">ACME-002</p>
+									<h4 class="mt-1 text-lg font-bold text-[#0F172A]">Rocket-Powered Roller Skates</h4>
+									<p class="mt-2 text-sm text-slate-600"><strong>Costo:</strong> $9,999.96</p>
+									<p class="mt-1 text-sm text-slate-600"><strong>Fallo:</strong> 100%</p>
+									<p class="mt-2 text-xs text-slate-500">Fallo principal: Failed to steer, propelled user off cliff face.</p>
+								</div>
+								<div class="md:border-l md:border-slate-200 md:pl-5">
+									<p class="text-xs font-semibold uppercase tracking-[0.12em] text-slate-500">ACME-003</p>
+									<h4 class="mt-1 text-lg font-bold text-[#0F172A]">Giant Rubber Band</h4>
+									<p class="mt-2 text-sm text-slate-600"><strong>Costo:</strong> $1,800</p>
+									<p class="mt-1 text-sm text-slate-600"><strong>Fallo:</strong> 93%</p>
+									<p class="mt-2 text-xs text-slate-500">Fallo principal: Snapped backward, slingshotting user into canyon wall.</p>
+								</div>
+							</div>
+						</article>
 					</section>
 
 					<section id="medical-section" class="space-y-4">
 						<div class="flex items-center justify-between">
 							<h3 class="text-xl font-bold text-[#0F172A]">4) Expediente Clinico y Traumatologia</h3>
-							<p class="text-xs text-slate-500">Cobertura del seguro: spoiler, 0.00%.</p>
+							<p class="text-xs text-slate-500">Cobertura del seguro: 0.00%.</p>
 						</div>
 						<div class="grid gap-4 lg:grid-cols-2">
 							<article class="rounded-xl bg-white p-5 shadow-sm ring-1 ring-[#E2E8F0]">
