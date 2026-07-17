@@ -1,0 +1,137 @@
+{
+  "summary": {
+    "total_acme_spend": 1842450.00,
+    "total_medical_cost": 14320500.00,
+    "road_runners_caught": 0,
+    "net_loss": -16162950.00,
+    "overall_reliability_pct": 0.8
+  },
+  "gadgetInventory": [
+    {
+      "id": "ACME-001",
+      "name": "Dehydrated Boulders",
+      "category": "Heavy Ballistics",
+      "unit_price": 450.00,
+      "quantity_purchased": 12,
+      "total_cost": 5400.00,
+      "failure_rate": 1.00,
+      "primary_failure_mode": "Rehydrated mid-air, fell vertically on user",
+      "severity_score": 9.2
+    },
+    {
+      "id": "ACME-002",
+      "name": "Rocket-Powered Roller Skates",
+      "category": "Propulsion",
+      "unit_price": 2499.99,
+      "quantity_purchased": 4,
+      "total_cost": 9999.96,
+      "failure_rate": 1.00,
+      "primary_failure_mode": "Failed to steer, propelled user off cliff face",
+      "severity_score": 10.0
+    },
+    {
+      "id": "ACME-003",
+      "name": "Giant Rubber Band",
+      "category": "Traps",
+      "unit_price": 120.00,
+      "quantity_purchased": 15,
+      "total_cost": 1800.00,
+      "failure_rate": 0.93,
+      "primary_failure_mode": "Snapped backward, slingshotting user into canyon wall",
+      "severity_score": 7.5
+    },
+    {
+      "id": "ACME-004",
+      "name": "Bird Seed (Iron-Gilded)",
+      "category": "Decoys",
+      "unit_price": 85.00,
+      "quantity_purchased": 50,
+      "total_cost": 4250.00,
+      "failure_rate": 1.00,
+      "primary_failure_mode": "Eaten entirely by target with zero magnetic attraction to magnet",
+      "severity_score": 1.0
+    },
+    {
+      "id": "ACME-005",
+      "name": "Hi-Speed Jet Motorized Pogo",
+      "category": "Propulsion",
+      "unit_price": 8750.00,
+      "quantity_purchased": 2,
+      "total_cost": 17500.00,
+      "failure_rate": 1.00,
+      "primary_failure_mode": "Piston detached, launching user directly into solid bedrock",
+      "severity_score": 9.8
+    },
+    {
+      "id": "ACME-006",
+      "name": "Tornado Kit (In a Bottle)",
+      "category": "Weather Modification",
+      "unit_price": 15000.00,
+      "quantity_purchased": 3,
+      "total_cost": 45000.00,
+      "failure_rate": 1.00,
+      "primary_failure_mode": "Tornado localized entirely inside user's esophagus",
+      "severity_score": 8.7
+    }
+  ],
+  "medicalIncidents": [
+    {
+      "incident_id": "MED-9021",
+      "description": "Blunt force trauma via localized tectonic falling rock",
+      "gadget_involved": "Dehydrated Boulders",
+      "bones_broken": 314,
+      "days_hospitalized": 45,
+      "er_fee": 152000.00,
+      "surgery_cost": 850000.00,
+      "rehab_cost": 45000.00,
+      "insurance_coverage": 0.00,
+      "net_bill": 1047000.00,
+      "diagnosis": "Accordion Syndrome (severe vertical skeletal compression)"
+    },
+    {
+      "incident_id": "MED-4412",
+      "description": "Terminal velocity deceleration impact (Canyon floor)",
+      "gadget_involved": "Rocket-Powered Roller Skates",
+      "bones_broken": 314,
+      "days_hospitalized": 120,
+      "er_fee": 250000.00,
+      "surgery_cost": 1200000.00,
+      "rehab_cost": 180000.00,
+      "insurance_coverage": 0.00,
+      "net_bill": 1630000.00,
+      "diagnosis": "Skeletal disintegration; temporary transition into a liquid-like state"
+    },
+    {
+      "incident_id": "MED-7831",
+      "description": "High-velocity kinetic snapping action",
+      "gadget_involved": "Giant Rubber Band",
+      "bones_broken": 84,
+      "days_hospitalized": 14,
+      "er_fee": 45000.00,
+      "surgery_cost": 150000.00,
+      "rehab_cost": 12000.00,
+      "insurance_coverage": 0.00,
+      "net_bill": 207000.00,
+      "diagnosis": "Severe whiplash and facial reconstruction following rock-face collision"
+    },
+    {
+      "incident_id": "MED-1109",
+      "description": "Full-body thermal expansion and combustion",
+      "gadget_involved": "Tornado Kit (In a Bottle)",
+      "bones_broken": 112,
+      "days_hospitalized": 60,
+      "er_fee": 180000.00,
+      "surgery_cost": 940000.00,
+      "rehab_cost": 75000.00,
+      "insurance_coverage": 0.00,
+      "net_bill": 1195000.00,
+      "diagnosis": "Third-degree ash covering entire dermis; blinking eyes are only functional organs"
+    }
+  ],
+  "financialLossOverTime": [
+    { "quarter": "Q1", "acme_purchases": 120000, "medical_expenses": 850000, "cumulative_loss": 970000 },
+    { "quarter": "Q2", "acme_purchases": 340000, "medical_expenses": 2400000, "cumulative_loss": 3710000 },
+    { "quarter": "Q3", "acme_purchases": 710000, "medical_expenses": 5100000, "cumulative_loss": 9520000 },
+    { "quarter": "Q4", "acme_purchases": 1842450, "medical_expenses": 14320500, "cumulative_loss": 16162950 }
+  ]
+}
